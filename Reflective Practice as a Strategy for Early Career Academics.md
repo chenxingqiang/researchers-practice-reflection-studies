@@ -4,6 +4,8 @@
 
 The Chinese higher education system has undergone rapid expansion and transformation in recent decades, presenting unique challenges for early career academics. This study investigates how reflective practice can serve as a strategy for these scholars to navigate the complexities of their academic environment. Through in-depth interviews with 22 early career academics and a comprehensive survey of 150 respondents across various Chinese universities, we explore the application of Donald Schön's theory of reflective practice in the context of Chinese higher education. Our findings reveal that structured reflection can help early career academics better integrate teaching and research, manage work-related anxiety, and navigate institutional pressures. However, the effectiveness of reflective practice is moderated by institutional culture and individual disposition. This research contributes to the ongoing discourse on academic development in rapidly evolving higher education systems and offers practical insights for both early career academics and institutional leaders in China and similar contexts.
 
+
+
 **Keywords**: Early career academics; Reflective practice; Chinese higher education; Academic challenges; Professional development
 
 ## 1. Introduction
@@ -55,7 +57,7 @@ However, for new Ph.D. graduates, their research careers have just begun, and th
 
 
 ```mermaid
-graph TD
+graph LR
     A[Heavy Teaching Load] -->|Leads to| B{Time for Research?}
     B -->|No| C[Focus on Teaching]
     B -->|Limited| D[Struggle to Balance]
@@ -232,7 +234,7 @@ Our research found that 68% of survey respondents struggled with prioritizing ta
 - Setting clear boundaries for work hours to prevent burnout
 - Identifying synergies between teaching and research to maximize productivity
 
-![Time_Allocation_Challenges_Pie_Chart](/Users/xingqiangchen/Downloads/Time_Allocation_Challenges_Pie_Chart.png)
+<img src="/Users/xingqiangchen/Downloads/Time_Allocation_Challenges_Pie_Chart.png" alt="Time_Allocation_Challenges_Pie_Chart" style="zoom: 33%;" />
 
 **Figure 4 ** This pie chart illustrates the time allocation challenges faced by early career academics. The majority (68%) struggle with prioritization of tasks, while 32% report managing their time effectively. The chart highlights the significant difficulty early career academics experience in balancing their responsibilities.
 
@@ -299,6 +301,8 @@ graph TD
 
 **Figure 5** illustrates the pathways through which **Reflective Practice** impacts academic development for early career academics. Reflective practice (main concept, blue-gray) directly influences several key process variables, including the **Adoption of Reflective Practice**, **Effectiveness of Reflective Practice**, and **Institutional Culture** (process variables, blue). These direct relationships are represented by thick solid arrows, emphasizing primary pathways of influence. Additional factors, such as **Leadership Style**, **Organizational Structure**, and **Reward Systems** (outcome variables, green), indirectly shape institutional culture, as shown by dashed arrows. The effectiveness of reflective practice may, in turn, transform institutional culture, creating a feedback loop that reinforces the adoption and value of reflective practice within the academic setting.
 
+
+
 Our research suggests that this framework can help early career academics in Chinese universities to navigate the challenges they face more effectively. However, it's important to note that the effectiveness of reflective practice is influenced by both individual factors (such as personality and career stage) and institutional factors (such as departmental culture and workload).
 
 For example, we found that academics in STEM fields were initially more skeptical about the value of reflective practice compared to those in humanities and social sciences. However, after engaging in structured reflection over a period of six months, 62% of STEM participants reported finding it beneficial for problem-solving and career planning.
@@ -344,7 +348,7 @@ Table 2: Relationship between Reflective Practice and Academic Anxiety
 | Monthly                 | 40%          | 45%              | 15%         |
 | Rarely or Never         | 60%          | 30%              | 10%         |
 
-<img src="../../Downloads/Relationship_between_Reflection_and_Anxiety_Chart_NoBold.png" alt="Relationship_between_Reflection_and_Anxiety_Chart_NoBold" style="zoom: 33%;" />
+<img src="../../Downloads/Relationship_between_Reflection_and_Anxiety_Chart_NoBold.png" alt="Relationship_between_Reflection_and_Anxiety_Chart_NoBold" style="zoom: 50%;" />
 
 **Figure 7 ** The stacked bar chart above illustrates the relationship between the frequency of reflective practice (daily, weekly, monthly, or rarely) and the levels of academic anxiety (high, moderate, or low). Academics who engage in daily reflection exhibit lower levels of high anxiety (15%) compared to those reflecting rarely (60%). As the frequency of reflection decreases, the percentage of high anxiety increases, showing a potential correlation between regular reflection and reduced academic anxiety.
 
@@ -362,7 +366,7 @@ Table 3: Perceived Effectiveness of Reflective Practice in Addressing Challenges
 | Work-Life Balance      | 50%              | 35%                  | 15%           |
 | Institutional Politics | 30%              | 45%                  | 25%           |
 
-<img src="/Users/xingqiangchen/Downloads/Perceived%20Effectiveness%20of%20Reflective%20Practice%20on%20Academic%20Challenges.png" alt="Perceived Effectiveness of Reflective Practice on Academic Challenges" style="zoom:33%;" />
+<img src="/Users/xingqiangchen/Downloads/Perceived%20Effectiveness%20of%20Reflective%20Practice%20on%20Academic%20Challenges.png" alt="Perceived Effectiveness of Reflective Practice on Academic Challenges" style="zoom:67%;" />
 
 **Figure 8 **The horizontal bar chart above illustrates the perceived effectiveness of reflective practice in addressing various academic challenges. The chart categorizes the challenges into five areas: Time Management, Research Productivity, Teaching Quality, Work-Life Balance, and Institutional Politics. The effectiveness is broken down into three categories: Highly Effective (green), Moderately Effective (orange), and Not Effective (red).
 
@@ -379,32 +383,11 @@ Table 4: Adoption of Reflective Practice by Discipline
 | Natural Sciences | 40%           | 35%               | 25%          |
 | Engineering      | 35%           | 40%               | 25%          |
 
-<img src="/Users/xingqiangchen/Downloads/Adoption%20Rates%20of%20Reflective%20Practice%20by%20Discipline.png" style="zoom:33%;" />
+<img src="/Users/xingqiangchen/Downloads/Adoption%20Rates%20of%20Reflective%20Practice%20by%20Discipline.png" style="zoom: 67%;" />
 
 **Figure 9 **Here is the 100% stacked bar chart illustrating the adoption rates of reflective practice across different disciplines. The chart shows the distribution of high, moderate, and low adoption rates for each discipline, with the colors representing the levels of adoption.
 
 These findings suggest that while reflective practice can be beneficial across all disciplines, its adoption and perceived usefulness vary. This highlights the need for discipline-specific approaches to promoting and implementing reflective practice in academic settings.
-
-### 5.5 Implications for Policy and Practice
-
-Based on our findings, we propose the following recommendations:
-
-1. For Early Career Academics:
-   - Develop a structured approach to reflective practice, incorporating it into daily or weekly routines.
-   - Use reflection to align personal values with professional goals and activities.
-   - Seek out mentors or peer groups to engage in collective reflection and support.
-
-2. For Institutional Leaders:
-   - Provide training and resources on reflective practice for early career academics.
-   - Create institutional spaces and times for reflection, such as regular workshops or retreats.
-   - Recognize and reward reflective practice as part of professional development.
-
-3. For Policy Makers:
-   - Consider incorporating reflective practice into national frameworks for academic development.
-   - Fund research on the long-term impacts of reflective practice on academic careers and institutional performance.
-   - Develop policies that balance quantitative metrics with qualitative assessments of academic work, allowing space for reflection and innovation.
-
-These recommendations aim to create an academic environment that values and supports reflective practice, potentially leading to more satisfied, productive, and innovative early career academics in Chinese universities.
 
 
 
@@ -433,30 +416,29 @@ Based on these limitations and our findings, we propose the following areas for 
 
    <img src="/Users/xingqiangchen/Downloads/Proposed%20Longitudinal%20Study%20Design.png" alt="Proposed Longitudinal Study Design" style="zoom:33%;" />
    
-   **Figure 10** Proposed Longitudinal Study Design*
+   **Figure 10** **Proposed Longitudinal Study Design**
    
    This Gantt chart provides a visual timeline of a longitudinal study focused on the implementation and evaluation of reflective practice. The study spans over two years and is divided into key phases that guide the progression of reflective practice in the research context.
    
-   - **1. Initial Assessment (2024-01-01 to 2024-03-01)**
+   **Initial Assessment (2024-01-01 to 2024-03-01)**
    
-     The study begins with an **Initial Assessment** phase lasting 60 days. During this period, an evaluation of the current state of reflective practices is conducted. This phase serves as the foundation for the reflective practice implementation, helping to identify baseline conditions and gather necessary data to guide the implementation process.
+   The study begins with an **Initial Assessment** phase lasting 60 days. During this period, an evaluation of the current state of reflective practices is conducted. This phase serves as the foundation for the reflective practice implementation, helping to identify baseline conditions and gather necessary data to guide the implementation process.
    
-   - **2. Reflective Practice Implementation (2024-03-01 to 2025-03-01)**
+   **Reflective Practice Implementation (2024-03-01 to 2025-03-01)**
 
-     After the initial assessment, the **Reflective Practice Implementation** phase begins. Over the course of 365 days, reflective practices are actively integrated into the study environment. This phase is the core of the study, where the real impact and applicability of reflective practices are observed.
+   After the initial assessment, the **Reflective Practice Implementation** phase begins. Over the course of 365 days, reflective practices are actively integrated into the study environment. This phase is the core of the study, where the real impact and applicability of reflective practices are observed.
    
-   - **3. Mid-point Evaluation (2025-03-01 to 2025-05-01)**
+   **Mid-point Evaluation (2025-03-01 to 2025-05-01)**
    
-     The **Mid-point Evaluation** takes place 365 days into the reflective practice implementation. Lasting for 60 days, this phase is critical for assessing the effectiveness of the ongoing reflective practices. It allows researchers to gather insights, adjust strategies, and fine-tune the approach if necessary to improve outcomes during the second half of the study.
+   The **Mid-point Evaluation** takes place 365 days into the reflective practice implementation. Lasting for 60 days, this phase is critical for assessing the effectiveness of the ongoing reflective practices. It allows researchers to gather insights, adjust strategies, and fine-tune the approach if necessary to improve outcomes during the second half of the study.
    
-   - **4. Continued Practice (2025-05-01 to 2026-05-01)**
+   **Continued Practice (2025-05-01 to 2026-05-01)**
    
-     Following the mid-point evaluation, the **Continued Practice** phase resumes for another 365 days. During this period, the study continues with the refined reflective practice strategies based on feedback from the mid-point evaluation. This phase allows for long-term observation and testing of the sustained impact of reflective practices.
+   Following the mid-point evaluation, the **Continued Practice** phase resumes for another 365 days. During this period, the study continues with the refined reflective practice strategies based on feedback from the mid-point evaluation. This phase allows for long-term observation and testing of the sustained impact of reflective practices.
    
-   - **5. Final Assessment (2026-05-01 to 2026-07-01)**
+   ** Final Assessment (2026-05-01 to 2026-07-01)**
    
-     The study concludes with a **Final Assessment** phase, which lasts for 60 days. This phase is dedicated to evaluating the overall success and outcomes of the reflective practice after its extended implementation. The results from this phase are crucial for drawing conclusions about the effectiveness of the practices over the study's entire duration.
-   
+   The study concludes with a **Final Assessment** phase, which lasts for 60 days. This phase is dedicated to evaluating the overall success and outcomes of the reflective practice after its extended implementation. The results from this phase are crucial for drawing conclusions about the effectiveness of the practices over the study's entire duration.
    
    **Summary:** The Gantt chart illustrates the sequential structure of the study, showing how reflective practice is implemented and evaluated over time. Key milestones, such as the **Mid-point Evaluation** and **Final Assessment**, provide critical moments for assessment, ensuring that the practice is continuously improved and adapted for maximum effectiveness.
    
@@ -481,9 +463,9 @@ Based on these limitations and our findings, we propose the following areas for 
    | Work-Life Balance      | Work hours, Stress levels, Health indicators              |
    | Career Progression     | Promotion rates, Leadership roles attained                |
 
-   <img src="/Users/xingqiangchen/Downloads/Line%20Chart.png" alt="Line Chart" style="zoom:33%;" />
+   <img src="/Users/xingqiangchen/Downloads/Line%20Chart.png" alt="Line Chart" style="zoom: 33%;" />
 
-   **Figure 11**The radar chart above compares the metrics between academics who regularly practice reflection and those who do not, using five key categories: Research Output, Teaching Effectiveness, Job Satisfaction, Work-Life Balance, and Career Progression. The colors maintain the same visual style as previous charts, with blue representing the reflection group and red representing the no reflection group. The chart visually highlights the differences in performance across these categories.
+   **Figure 11 ** The radar chart above compares the metrics between academics who regularly practice reflection and those who do not, using five key categories: Research Output, Teaching Effectiveness, Job Satisfaction, Work-Life Balance, and Career Progression. The colors maintain the same visual style as previous charts, with blue representing the reflection group and red representing the no reflection group. The chart visually highlights the differences in performance across these categories.
    
 5. **Discipline-Specific Approaches**: 
    Develop and test discipline-specific models of reflective practice, acknowledging the unique challenges and contexts of different academic fields.
@@ -579,8 +561,6 @@ graph LR
 **Figure 13** illustrates how reflective practice influences academic performance through multiple pathways. Reflective practice (main concept, blue-gray) directly impacts several process variables, including teaching-research integration, academic anxiety, personal autonomy, and disciplinary adaptation (process variables, blue). These relationships are represented by thick solid arrows, indicating that these are the primary pathways of influence from reflective practice. Additionally, academic anxiety, teaching-research integration, and personal autonomy affect academic satisfaction (mediator variable, pink), shown by thin dashed arrows, suggesting that these are more indirect mechanisms. Disciplinary adaptation influences tailored approaches, which then indirectly contribute to academic performance.
 
 
-
-This diagram illustrates the key findings of our study, showing how reflective practice influences various aspects of academic life and ultimately contributes to improved academic performance.
 
 ### Implications for Practice and Policy
 
