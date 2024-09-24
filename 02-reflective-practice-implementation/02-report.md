@@ -222,7 +222,7 @@ Our research found that 68% of survey respondents struggled with prioritizing ta
 - Setting clear boundaries for work hours to prevent burnout
 - Identifying synergies between teaching and research to maximize productivity
 
-<img src=".../imgs/Time_Allocation_Challenges_Pie_Chart.png" alt="Time_Allocation_Challenges_Pie_Chart" style="zoom: 33%;" />
+<img src="../imgs/Time_Allocation_Challenges_Pie_Chart.png" alt="Time_Allocation_Challenges_Pie_Chart" style="zoom: 33%;" />
 
 **Figure 4**  This pie chart illustrates the time allocation challenges faced by early career academics. The majority (68%) struggle with prioritization of tasks, while 32% report managing their time effectively. The chart highlights the significant difficulty early career academics experience in balancing their responsibilities.
 
