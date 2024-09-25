@@ -1,5 +1,7 @@
 # Researchers' Practice Reflection Studies
 
+ <img src="./imgs/logo.svg" alt="logo"/>
+
 This repository contains the research project "Reflective Practice as a Strategy for Early Career Academics: Addressing Challenges in the Chinese Higher Education System".
 
 ## Project Structure

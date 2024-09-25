@@ -1,36 +1,39 @@
 import csv
 import random
-import openai
 import time
 import os
 import json
+import logging
+from openai import OpenAI
 
-# 从环境变量获取 OpenAI API 密钥
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# 设置日志
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
-if not openai.api_key:
-    raise ValueError("请设置环境变量 OPENAI_API_KEY")
+# 设置 DeepSeek API
+client = OpenAI(api_key=os.getenv("DEEPSEEK_API_KEY"),
+                base_url="https://api.deepseek.com")
 
 
-def generate_open_ended_response(prompt):
-    try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4-0125-preview",
-            messages=[
-                {"role": "system",
-                 "content": "你是一位中国高校的早期职业学者，正在参与一项关于反思实践的调查。请以简洁、真实的方式回答以下问题。"},
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=150,
-            n=1,
-            stop=None,
-            temperature=0.7,
-        )
-        return response.choices[0].message['content'].strip()
-    except Exception as e:
-        print(f"Error generating response: {e}")
-        return "无回答"
-
+def generate_open_ended_response(prompt, max_retries=3, delay=5):
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[
+                    {"role": "system", "content": "你是一位中国高校的早期职业学者，正在参与一项关于反思实践的访谈。请基于给定的背景信息，以真实、详细的方式回答以下问题。"},
+                    {"role": "user", "content": f"问题：{prompt}"}
+                ],
+                stream=False
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            logging.error(
+                f"Error generating response (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(delay)
+            else:
+                return "无回答"
 
 def load_progress(filename):
     """加载已生成数据的进度"""
@@ -63,17 +66,17 @@ def log_progress(log_filename, row, index):
         log_file.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
 
 
-def generate_survey_data(start_index=0, total_records=150, csv_filename='survey_results.csv', log_filename='generation_log.txt'):
+def generate_survey_data(start_index=0, total_records=150, csv_filename='./data/deepseek/survey/survey_results.csv', log_filename='./data/deepseek/survey/generation_log.txt'):
     data = []
     existing_data = load_progress(csv_filename)
     existing_count = len(existing_data)
     start_index = max(existing_count, start_index)
 
     if start_index >= total_records:
-        print(f"所有数据已生成，无需继续。现有 {existing_count} 条记录。")
+        logging.info(f"所有数据已生成，无需继续。现有 {existing_count} 条记录。")
         return
 
-    print(f"开始从第 {start_index + 1} 条记录继续生成...")
+    logging.info(f"开始从第 {start_index + 1} 条记录继续生成...")
 
     for i in range(start_index, total_records):
         row = {}
@@ -199,12 +202,12 @@ def generate_survey_data(start_index=0, total_records=150, csv_filename='survey_
         log_progress(log_filename, row, i + 1)
 
         # 打印当前进度
-        print(f"已生成 {i + 1}/{total_records} 条数据。")
+        logging.info(f"已生成 {i + 1}/{total_records} 条数据。")
 
         # 避免 API 速率限制，暂停 1 秒
         time.sleep(1)
 
-    print("数据生成完成。")
+    logging.info("数据生成完成。")
 
 
 # 启动数据生成

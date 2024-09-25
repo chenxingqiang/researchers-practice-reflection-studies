@@ -8,9 +8,10 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from mermaid_to_image import mermaid_to_image
+import logging
 
-# Function to set the font style to Times New Roman in docx
-
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 def set_font_style(paragraph, font_name="Times New Roman", font_size=12):
     """ Set font to Times New Roman and size for all runs in a paragraph. """
@@ -35,7 +36,7 @@ def insert_image_to_docx(doc, img_path, width=None):
             doc.add_picture(img_path)
         return True
     except Exception as e:
-        print(f"Error inserting image {img_path}: {e}")
+        logging.error(f"Error inserting image {img_path}: {e}")
         return False
 
 
@@ -55,7 +56,7 @@ def mermaid_to_base64_image(mermaid_code, lesson_num, diagram_count, output_path
         else:
             raise Exception("Mermaid image generation failed")
     except Exception as e:
-        print(f"Error generating Mermaid diagram: {e}")
+        logging.error(f"Error generating Mermaid diagram: {e}")
         return None
 
 
@@ -155,7 +156,7 @@ def text_to_docx(input_file, output_file, lesson_num):
 
     # Save the document as a .docx file
     doc.save(output_file)
-    print(f"Document created: {output_file}")
+    logging.info(f"Document created: {output_file}")
 
 
 # Main program
@@ -164,8 +165,8 @@ input_files = [
     # Add more files as needed
 ]
 
-input_path = "/Users/xingqiangchen/TASK/young-researcher-chinamainland/"
-output_base_path = "/Users/xingqiangchen/TASK/young-researcher-chinamainland/docx/"
+input_path = "./"
+output_base_path = "./docx/"
 output_path = os.path.join(output_base_path, "docx_output")
 
 # Create the output path if it doesn't exist
@@ -182,4 +183,4 @@ for name in input_files:
     output_file = os.path.join(lesson_folder, name.replace(".md", ".docx"))
 
     text_to_docx(input_file, output_file, lesson_num)
-    print(f"Document has been created: {output_file}")
+    logging.info(f"Document has been created: {output_file}")

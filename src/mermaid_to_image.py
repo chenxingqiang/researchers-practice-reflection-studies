@@ -69,11 +69,11 @@ def mermaid_to_image(mermaid_code, output_file, format="svg"):
         else:
             raise ValueError("Unsupported format. Use 'svg' or 'png'.")
 
-        print(f"Mermaid diagram saved as {format.upper()}: {output_file}")
+        logging.info(f"Mermaid diagram saved as {format.upper()}: {output_file}")
         return True
 
     except Exception as e:
-        print(f"Error generating image for Mermaid diagram: {e}")
+        logging.info(f"Error generating image for Mermaid diagram: {e}")
         return False
     finally:
         driver.quit()

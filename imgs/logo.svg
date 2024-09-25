@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="90" fill="#f0f0f0" />
+  
+  <!-- 人头轮廓 -->
+  <path d="M60,100 Q60,60 100,60 Q140,60 140,100 V140 H60 V100" fill="#4a86e8" />
+  
+  <!-- 放大镜 -->
+  <circle cx="110" cy="90" r="20" fill="none" stroke="#333" stroke-width="4" />
+  <line x1="125" y1="105" x2="140" y2="120" stroke="#333" stroke-width="4" />
+  
+  <!-- 反射的小图标 -->
+  <rect x="105" y="85" width="10" height="10" fill="#333" /> <!-- 书本 -->
+  <circle cx="115" cy="95" r="5" fill="#333" /> <!-- 实验室烧瓶 -->
+  <polygon points="105,85 110,80 115,85" fill="#333" /> <!-- 讲台 -->
+  
+  <!-- 文字 -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">RPRS</text>
+</svg>

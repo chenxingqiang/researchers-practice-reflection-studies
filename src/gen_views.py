@@ -7,17 +7,14 @@ import logging
 from tqdm import tqdm
 from openai import OpenAI
 
-# 设置日志
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-# 设置 DeepSeek API
+# set DeepSeek API
 client = OpenAI(api_key=os.getenv("DEEPSEEK_API_KEY"),
                 base_url="https://api.deepseek.com")
 
-# 从CSV文件中随机选择20条数据
-
-
+# select 20 viewers in random
 def select_random_data(file_path, num_samples=20):
     with open(file_path, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
@@ -25,8 +22,6 @@ def select_random_data(file_path, num_samples=20):
     return random.sample(data, num_samples)
 
 # 生成访谈回答
-
-
 def generate_interview_response(prompt, background, max_retries=3, delay=5):
     for attempt in range(max_retries):
         try:
@@ -58,8 +53,8 @@ def save_progress(completed_interviews):
 
 
 def load_progress():
-    if os.path.exists('progress.json'):
-        with open('progress.json', 'r') as f:
+    if os.path.exists('./data/deepseek/views/progress.json'):
+        with open('./data/deepseek/views/progress.json', 'r') as f:
             return json.load(f)
     return []
 
@@ -119,7 +114,8 @@ def main():
     completed_interviews = load_progress()
 
     # 随机选择20条数据
-    selected_data = select_random_data('survey_results.csv')
+    selected_data = select_random_data(
+        './data/deepseek/survey/survey_results.csv')
 
     # 生成访谈回答并保存
     for i, data in enumerate(tqdm(selected_data)):
@@ -137,7 +133,7 @@ def main():
             interview_responses[section] = section_responses
 
         # 将回答保存为JSON文件
-        with open(f'interview_responses_{i+1}.json', 'w', encoding='utf-8') as f:
+        with open(f'./data/deepseek/views/interview_responses_{i+1}.json', 'w', encoding='utf-8') as f:
             json.dump(interview_responses, f, ensure_ascii=False, indent=4)
 
         # 更新进度
