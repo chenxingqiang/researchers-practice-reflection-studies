@@ -222,7 +222,7 @@ Our research found that 68% of survey respondents struggled with prioritizing ta
 - Setting clear boundaries for work hours to prevent burnout
 - Identifying synergies between teaching and research to maximize productivity
 
-<img src="../imgs/Time_Allocation_Challenges_Pie_Chart.png" alt="Time_Allocation_Challenges_Pie_Chart" style="zoom: 33%;" />
+<img src="../imgs/02/Time_Allocation_Challenges_Pie_Chart.png" alt="Time_Allocation_Challenges_Pie_Chart" style="zoom: 33%;" />
 
 **Figure 4**  This pie chart illustrates the time allocation challenges faced by early career academics. The majority (68%) struggle with prioritization of tasks, while 32% report managing their time effectively. The chart highlights the significant difficulty early career academics experience in balancing their responsibilities.
 
@@ -315,7 +315,7 @@ Table 1: Impact of Reflective Practice on Teaching-Research Integration
 | Occasional (monthly)  | 45%                                | 38%                   | 17%              |
 | Rare (yearly or less) | 23%                                | 42%                   | 35%              |
 
-<img src="../imgs/Relationship%20between%20Level%20of%20Reflection%20and%20Satisfaction%20with%20Teaching-Research%20Integration.png" style="zoom: 33%;" />
+<img src="../imgs/02/Relationship-between-Level-of-Reflection-and-Satisfaction-with-Teaching-Research-Integration.png" style="zoom: 33%;" />
 
 **Figure 6** This bar chart illustrates the relationship between the level of reflective practice (weekly, monthly, or yearly) and the degree of satisfaction with the integration of teaching and research. Academics who engage in regular reflection (weekly) show a higher percentage of high satisfaction (68%) with teaching-research integration compared to those reflecting occasionally or rarely.
 
@@ -332,7 +332,7 @@ Table 2: Relationship between Reflective Practice and Academic Anxiety
 | Monthly                 | 40%          | 45%              | 15%         |
 | Rarely or Never         | 60%          | 30%              | 10%         |
 
-<img src="../imgs/Relationship_between_Reflection_and_Anxiety_Chart_NoBold.png" alt="Relationship_between_Reflection_and_Anxiety_Chart_NoBold" style="zoom: 50%;" />
+<img src="../imgs/02/Relationship_between_Reflection_and_Anxiety_Chart_NoBold.png" alt="Relationship_between_Reflection_and_Anxiety_Chart_NoBold" style="zoom: 50%;" />
 
 **Figure 7** The stacked bar chart above illustrates the relationship between the frequency of reflective practice (daily, weekly, monthly, or rarely) and the levels of academic anxiety (high, moderate, or low). Academics who engage in daily reflection exhibit lower levels of high anxiety (15%) compared to those reflecting rarely (60%). As the frequency of reflection decreases, the percentage of high anxiety increases, showing a potential correlation between regular reflection and reduced academic anxiety.
 
@@ -350,7 +350,7 @@ Table 3: Perceived Effectiveness of Reflective Practice in Addressing Challenges
 | Work-Life Balance      | 50%              | 35%                  | 15%           |
 | Institutional Politics | 30%              | 45%                  | 25%           |
 
-<img src="../imgs/Perceived%20Effectiveness%20of%20Reflective%20Practice%20on%20Academic%20Challenges.png" alt="Perceived Effectiveness of Reflective Practice on Academic Challenges" style="zoom:67%;" />
+<img src="../imgs/02/Perceived-Effectiveness-of-Reflective-Practice-on-Academic-Challenges.png" alt="Perceived Effectiveness of Reflective Practice on Academic Challenges" style="zoom:67%;" />
 
 **Figure 8**The horizontal bar chart above illustrates the perceived effectiveness of reflective practice in addressing various academic challenges. The chart categorizes the challenges into five areas: Time Management, Research Productivity, Teaching Quality, Work-Life Balance, and Institutional Politics. The effectiveness is broken down into three categories: Highly Effective (green), Moderately Effective (orange), and Not Effective (red).
 
@@ -367,7 +367,7 @@ Table 4: Adoption of Reflective Practice by Discipline
 | Natural Sciences | 40%           | 35%               | 25%          |
 | Engineering      | 35%           | 40%               | 25%          |
 
-<img src="../imgs/Adoption%20Rates%20of%20Reflective%20Practice%20by%20Discipline.png" style="zoom: 67%;" />
+<img src="../imgs/02/Adoption-Rates-of-Reflective-Practice-by-Discipline.png" style="zoom: 67%;" />
 
 **Figure 9**Here is the 100% stacked bar chart illustrating the adoption rates of reflective practice across different disciplines. The chart shows the distribution of high, moderate, and low adoption rates for each discipline, with the colors representing the levels of adoption.
 
@@ -396,7 +396,7 @@ Based on these limitations and our findings, we propose the following areas for 
 1. **Longitudinal Studies**:
    Conduct long-term studies to track the impact of reflective practice on academic careers over time.
 
-   <img src="../imgs/Proposed%20Longitudinal%20Study%20Design.png" alt="Proposed Longitudinal Study Design" style="zoom:33%;" />
+   <img src="../imgs/02/Proposed-Longitudinal-Study-Design.png" alt="Proposed Longitudinal Study Design" style="zoom:33%;" />
 
    **Figure 10** **Proposed Longitudinal Study Design**
 
@@ -443,7 +443,7 @@ The study concludes with a **Final Assessment** phase, which lasts for 60 days. 
    | Work-Life Balance      | Work hours, Stress levels, Health indicators              |
    | Career Progression     | Promotion rates, Leadership roles attained                |
 
-   <img src="../imgs/Line%20Chart.png" alt="Line Chart" style="zoom: 33%;" />
+   <img src="../imgs/02/Comparison-of-Metrics-Between-Reflection-and-No-Reflection.png" alt="Comparison-of-Metrics-Between-Reflection-and-No-Reflection" style="zoom: 33%;" />
 
    **Figure 11** The radar chart above compares the metrics between academics who regularly practice reflection and those who do not, using five key categories: Research Output, Teaching Effectiveness, Job Satisfaction, Work-Life Balance, and Career Progression. The colors maintain the same visual style as previous charts, with blue representing the reflection group and red representing the no reflection group. The chart visually highlights the differences in performance across these categories.
 
