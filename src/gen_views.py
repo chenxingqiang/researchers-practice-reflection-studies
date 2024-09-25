@@ -115,7 +115,7 @@ def main():
 
     # 随机选择20条数据
     selected_data = select_random_data(
-        './data/deepseek/survey/survey_results.csv')
+        './data/survey/survey_results.csv')
 
     # 生成访谈回答并保存
     for i, data in enumerate(tqdm(selected_data)):

@@ -21,8 +21,9 @@ def generate_open_ended_response(prompt, max_retries=3, delay=5):
             response = client.chat.completions.create(
                 model="deepseek-chat",
                 messages=[
-                    {"role": "system", "content": "你是一位中国高校的早期职业学者，正在参与一项关于反思实践的访谈。请基于给定的背景信息，以真实、详细的方式回答以下问题。"},
-                    {"role": "user", "content": f"问题：{prompt}"}
+                    {"role": "system",
+                     "content": "你是一位中国高校的早期职业学者，正在参与一项关于反思实践的调查。请以简洁、真实的方式回答以下问题。"},
+                    {"role": "user", "content": prompt}
                 ],
                 stream=False
             )

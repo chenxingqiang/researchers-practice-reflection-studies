@@ -465,11 +465,11 @@ The study concludes with a **Final Assessment** phase, which lasts for 60 days. 
        D[Leadership Style] -->|Affects| A
        E[Organizational Structure] -->|Impacts| A
        F[Reward Systems] -->|Determines| A
-
+   
        classDef main fill:#f0f4f8,stroke:#2c5282,stroke-width:1.5px;
        classDef process fill:#e6f6ff,stroke:#2b6cb0,stroke-width:1.5px;
        classDef outcome fill:#f0fff4,stroke:#2f855a,stroke-width:1.5px;
-    
+   
        class A main;
        class B,C process;
        class D,E,F outcome;
@@ -477,8 +477,6 @@ The study concludes with a **Final Assessment** phase, which lasts for 60 days. 
        linkStyle default stroke:#4a5568,stroke-width:1px;
        linkStyle 0,1 stroke:#2c5282,stroke-width:1.5px;
        linkStyle 2,3,4,5 stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5;
-   
-       
    ```
 
 **Figure 12** shows the relationship between institutional culture and various organizational factors in shaping the adoption and effectiveness of reflective practice. Institutional culture (main concept, blue-gray) directly influences the adoption of reflective practice, which in turn shapes its effectiveness (process variables, blue). The effectiveness of reflective practice can potentially transform institutional culture, creating a feedback loop. Leadership style, organizational structure, and reward systems (outcome variables, green) indirectly impact institutional culture, contributing to its overall influence on reflective practice.
