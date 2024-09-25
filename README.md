@@ -4,7 +4,7 @@ This repository contains the research project "Reflective Practice as a Strategy
 
 ## Project Structure
 
-```
+```bash
 .
 ├── 01-initial-assessment
 ├── 02-reflective-practice-implementation
@@ -14,6 +14,7 @@ This repository contains the research project "Reflective Practice as a Strategy
 ├── docx
 ├── imgs
 └── src
+|__ data
 
 ```
 
@@ -48,7 +49,7 @@ This repository contains the research project "Reflective Practice as a Strategy
 
 This study employs a mixed-methods approach, combining quantitative and qualitative research techniques:
 
-1. **Quantitative Component**: 
+1. **Quantitative Component**:
    - Online survey (n=150)
    - Statistical analysis using SPSS or R
 
@@ -61,6 +62,10 @@ This study employs a mixed-methods approach, combining quantitative and qualitat
    - Comprehensive interpretation and theory development
 
 ## Project Timeline
+
+ <img src="./imgs/02/Proposed-Longitudinal-Study-Design.png" alt="Proposed Longitudinal Study Design"/>
+
+   This Gantt chart provides a visual timeline of a longitudinal study focused on the implementation and evaluation of reflective practice. The study spans over two years and is divided into key phases that guide the progression of reflective practice in the research context.
 
 1. **Questionnaire Pre-test** (Week 1-2)
    - Conduct pre-test with 5-10 target group members
@@ -111,38 +116,37 @@ This study employs a mixed-methods approach, combining quantitative and qualitat
 ## How to Use
 
 1. Clone the repository:
-   ```
 
+```bash
 git clone <https://github.com/chenxingqiang/researchers-practice-reflection-studies.git>
 
-   ```
+```
+   
 2. Navigate to the project directory:
-   ```
 
+```bash
    cd researchers-practice-reflection-studies
+```
 
-   ```
 3. Install required dependencies:
-   ```
 
+```bash
    pip install -r requirements.txt
-
 ```
+
 4. Run the data generation script:
-   ```
 
+```bash
    python src/gen_data.py
-
 ```
+
 5. Generate documents:
-   ```
 
+```bash
    python src/gen_doc.py
-
 ```
 6. Create visualizations:
-   ```
-
+```bash
    python src/plot_fig2.py
    python src/plot_fig3.py
    python src/plot_fig4.py
