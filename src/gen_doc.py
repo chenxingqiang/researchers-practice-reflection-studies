@@ -183,4 +183,4 @@ for name in input_files:
     output_file = os.path.join(lesson_folder, name.replace(".md", ".docx"))
 
     text_to_docx(input_file, output_file, lesson_num)
-    logging.info(f"Document has been created: {output_file}")
+logging.info(f"Document has been created: {output_file}")
