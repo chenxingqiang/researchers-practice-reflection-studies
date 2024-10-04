@@ -457,7 +457,7 @@ The study concludes with a **Final Assessment** phase, which lasts for 60 days. 
 7. **Institutional Culture and Reflective Practice**:
    Investigate how institutional culture influences the adoption and effectiveness of reflective practice, and how reflective practice might, in turn, influence institutional culture.
 
-   ```mermaid
+```mermaid
    graph LR
        A[Institutional Culture] -->|Influences| B[Adoption of Reflective Practice]
        B -->|Shapes| C[Effectiveness of Reflective Practice]
@@ -465,15 +465,15 @@ The study concludes with a **Final Assessment** phase, which lasts for 60 days. 
        D[Leadership Style] -->|Affects| A
        E[Organizational Structure] -->|Impacts| A
        F[Reward Systems] -->|Determines| A
-   
+
        classDef main fill:#f0f4f8,stroke:#2c5282,stroke-width:1.5px;
        classDef process fill:#e6f6ff,stroke:#2b6cb0,stroke-width:1.5px;
        classDef outcome fill:#f0fff4,stroke:#2f855a,stroke-width:1.5px;
-   
+
        class A main;
        class B,C process;
        class D,E,F outcome;
-   
+
        linkStyle default stroke:#4a5568,stroke-width:1px;
        linkStyle 0,1 stroke:#2c5282,stroke-width:1.5px;
        linkStyle 2,3,4,5 stroke:#4a5568,stroke-width:1px,stroke-dasharray: 5 5;
